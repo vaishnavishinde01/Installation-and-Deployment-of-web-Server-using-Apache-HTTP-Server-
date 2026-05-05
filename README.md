@@ -1,4 +1,4 @@
-# Mini Project 1 : Installation and Deployment of Web Server using Apache HTTP Server
+#  Installation and Deployment of Web Server using Apache HTTP Server
 
 ---
 
