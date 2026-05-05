@@ -58,7 +58,7 @@ Open browser and enter your server IP:
 http://your-ip-address
 ```
 
-![Apache Test Page](screenshot_page2_1.png)
+![Apache Test Page](screenshot_page2_2.jpeg)
 
 ---
 
@@ -69,7 +69,7 @@ cd /var/www/html
 sudo nano index.html
 ```
 
-![Create Website](screenshot_page2_2.jpeg)
+![Create Website](screenshot_page2_3.png)
 
 ---
 
@@ -79,7 +79,7 @@ sudo nano index.html
 sudo systemctl restart httpd
 ```
 
-![Restart Apache](screenshot_page2_3.png)
+![Restart Apache](screenshot_page2_4.png)
 
 ---
 
@@ -91,7 +91,7 @@ Open browser:
 http://localhost/index.html
 ```
 
-![Website Output](screenshot_page2_4.png)
+![Website Output](screenshot_page2_1.jpeg)
 
 ---
 
