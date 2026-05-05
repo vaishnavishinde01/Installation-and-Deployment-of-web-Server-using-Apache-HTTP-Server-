@@ -91,7 +91,7 @@ Open browser:
 http://localhost/index.html
 ```
 
-![Website Output](screenshot_page2_1.jpeg)
+![Website Output](screenshot_page2_1.png)
 
 ---
 
