@@ -14,7 +14,7 @@ To install and configure Apache web server and host a basic website.
 sudo dnf install httpd
 ```
 
-![Install Apache](screenshots/screenshot_page1_1.png)
+![Install Apache](screenshot_page1_1.png)
 
 ---
 
@@ -25,7 +25,7 @@ sudo systemctl start httpd
 sudo systemctl enable httpd
 ```
 
-![Start Apache](screenshots/screenshot_page1_2.png)
+![Start Apache](screenshot_page1_2.png)
 
 ---
 
@@ -35,7 +35,7 @@ sudo systemctl enable httpd
 sudo systemctl status httpd
 ```
 
-![Apache Status](screenshots/screenshot_page1_3.png)
+![Apache Status](screenshot_page1_3.png)
 
 ---
 
@@ -46,7 +46,7 @@ sudo firewall-cmd --permanent --add-service=http
 sudo firewall-cmd --reload
 ```
 
-![Firewall](screenshots/screenshot_page1_4.png)
+![Firewall](screenshot_page1_4.png)
 
 ---
 
@@ -58,7 +58,7 @@ Open browser and enter your server IP:
 http://your-ip-address
 ```
 
-![Apache Test Page](screenshots/screenshot_page2_1.png)
+![Apache Test Page](screenshot_page2_1.png)
 
 ---
 
@@ -69,7 +69,7 @@ cd /var/www/html
 sudo nano index.html
 ```
 
-![Create Website](screenshots/screenshot_page2_2.png)
+![Create Website](screenshot_page2_2.png)
 
 ---
 
@@ -79,7 +79,7 @@ sudo nano index.html
 sudo systemctl restart httpd
 ```
 
-![Restart Apache](screenshots/screenshot_page2_3.png)
+![Restart Apache](screenshot_page2_3.png)
 
 ---
 
@@ -91,7 +91,7 @@ Open browser:
 http://localhost/index.html
 ```
 
-![Website Output](screenshots/screenshot_page2_4.png)
+![Website Output](screenshot_page2_4.png)
 
 ---
 
@@ -114,15 +114,14 @@ http://localhost/index.html
 ```
 .
 ├── README.md
-└── screenshots/
-    ├── screenshot_page1_1.png
-    ├── screenshot_page1_2.png
-    ├── screenshot_page1_3.png
-    ├── screenshot_page1_4.png
-    ├── screenshot_page2_1.png
-    ├── screenshot_page2_2.png
-    ├── screenshot_page2_3.png
-    └── screenshot_page2_4.png
+├── screenshot_page1_1.png
+├── screenshot_page1_2.png
+├── screenshot_page1_3.png
+├── screenshot_page1_4.png
+├── screenshot_page2_1.png
+├── screenshot_page2_2.png
+├── screenshot_page2_3.png
+└── screenshot_page2_4.png
 ```
 
 ---
