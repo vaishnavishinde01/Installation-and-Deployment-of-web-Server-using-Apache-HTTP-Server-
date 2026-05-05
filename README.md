@@ -109,20 +109,6 @@ http://localhost/index.html
 
 ---
 
-## 📂 Folder Structure
-
-```
-.
-├── README.md
-├── screenshot_page1_1.png
-├── screenshot_page1_2.png
-├── screenshot_page1_3.png
-├── screenshot_page1_4.png
-├── screenshot_page2_1.png
-├── screenshot_page2_2.png
-├── screenshot_page2_3.png
-└── screenshot_page2_4.png
-```
 
 ---
 
