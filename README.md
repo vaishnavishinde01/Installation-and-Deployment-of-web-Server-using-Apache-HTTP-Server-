@@ -35,7 +35,7 @@ sudo systemctl enable httpd
 sudo systemctl status httpd
 ```
 
-![Apache Status](screenshot_page1_3.png)
+![Apache Status](screenshot_page1_3.jpeg)
 
 ---
 
@@ -46,7 +46,7 @@ sudo firewall-cmd --permanent --add-service=http
 sudo firewall-cmd --reload
 ```
 
-![Firewall](screenshot_page1_4.png)
+![Firewall](screenshot_page1_4.jpeg)
 
 ---
 
@@ -69,7 +69,7 @@ cd /var/www/html
 sudo nano index.html
 ```
 
-![Create Website](screenshot_page2_2.png)
+![Create Website](screenshot_page2_2.jpeg)
 
 ---
 
